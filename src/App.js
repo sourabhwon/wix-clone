@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Project from "./Project";
+import Footer from "./Footer";
 
 function App () {
 
@@ -10,6 +11,7 @@ function App () {
     <div className="App">
 
   <Project/>
+  <Footer/>
  
 </div>
   );
