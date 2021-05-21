@@ -1,21 +1,25 @@
 import React from "react";
+import Header from "./Components/Header";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import logo from './logo.svg';
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Project from "./Project";
-import Footer from "./Footer";
 
-function App () {
+function App() {
 
-  return (
-    <div className="App">
+  return (<div>
+             <div className="App">
 
-  <Project/>
-  <Footer/>
- 
-</div>
-  );
-}
-
+                <Project/>
+                <Footer/>
+    
+             </div
+            <Header/>
+            <Contact/>
+            <Footer/>
+          </div>);
+          }
 
 export default App;
