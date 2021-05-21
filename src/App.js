@@ -1,14 +1,21 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "./Home";
-function App() {
+import React from "react";
+import logo from './logo.svg';
+import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import Project from "./Project";
+import Footer from "./Footer";
+
+function App () {
+
   return (
     <div className="App">
-      <div class="container">
-        <Home />
-      </div>
-    </div>
+
+  <Project/>
+  <Footer/>
+ 
+</div>
   );
 }
+
 
 export default App;
