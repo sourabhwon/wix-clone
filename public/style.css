@@ -78,6 +78,19 @@ textarea {
   width: 100%;
 }
 
+.workExperience {
+  margin: 5% auto;
+}
+
+.workExperience h1 {
+  margin-bottom: 3%;
+}
+
+.timeLine {
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
 /* footer div div {
   width: 100%;
   padding-right: 20%;
@@ -128,5 +141,9 @@ textarea {
 
   footer div {
     margin-bottom: 5%;
+  }
+
+  .timeLine {
+    margin-left: -4%;
   }
 }
